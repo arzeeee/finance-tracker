@@ -10,7 +10,9 @@ class StocksController < ApplicationController
     respond_to do |format|
       format.js { render partial: 'users/result' }
     end  
-      
   end
-  
+      
 end
+  
+  
+  
